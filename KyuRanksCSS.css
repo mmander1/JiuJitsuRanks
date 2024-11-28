@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+<style>
+	body {
+	  margin: 0;
+	  font-family: Arial, sans-serif;
+	  display: flex;
+	  flex-direction: column;
+	  height: 100vh;
+	}
+
+	.top-banner {
+	height: 120px;
+	background-color: #6B6B6B;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	z-index: 10;
+	}
+
+	.container {
+	  flex-grow: 1;
+	  display: flex;
+	  height: calc(100vh - 100px);
+	}
+	h1 {
+	text-align: center;
+	font-size: 108px;
+	}
+	h2 {
+	text-align: center;
+	font-size: 64px;
+	}
+	h3 {
+	text-align: center;
+	font-size: 40px;
+	}
+
+	.sidebar {
+	  width: 320px;
+	  background-color: #333;
+	  color: white;
+	  padding: 20px;
+	  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+	  overflow-y: auto;
+	}
+
+	.content {
+	flex-grow: 1;
+	padding: 20px;
+	background-color: #F70004;
+	overflow-y: auto;
+	text-align: center;
+	font-size: 36px;
+	}
+	ol {
+	text-align: left;
+	font-size: 36px;
+	}
+	.hover-link {
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+	}
+
+	.hover-link:hover {
+	color: red;            
+	text-decoration: underline;
+	font-size: 18px;
+	transition: 0.3s ease;
+	}
+</style>
+

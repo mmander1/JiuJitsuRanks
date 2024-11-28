@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Index-Ranks-CSS.css">
+    <title>Index Page</title>
+</head>
+	
+<body style="background-image: url('pexels-karolina-grabowska-4386429.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; height: 100vh; background-color: #FFFFFF; width: 100%; text-align: center;">
+
+<div class="button-container">
+        <a href="7thKyu.html" target="_blank">
+        <button class="buttonseven">7th Kyu</button>
+        </a>
+        <a href="6thKyu.html" target="_blank">
+        <button class="buttonsix">6th Kyu</button>
+        </a>
+        <a href="5thKyu.html" target="_blank">
+        <button class="buttonfive">5th Kyu</button>
+        </a>
+        <a href="4thKyu.html" target="_blank">
+        <button class="buttonfour">4th Kyu</button>
+        </a>
+        <a href="3rdKyu.html" target="_blank">
+        <button class="buttonthree">3rd Kyu</button>
+        </a>
+        <a href="2ndKyu.html" target="_blank">
+        <button class="buttontwo">2nd Kyu</button>
+        </a>
+        <a href="1stKyu.html" target="_blank">
+        <button class="buttonone">1st Kyu</button>
+        </a>
+        <a href="Shodan.html" target="_blank">
+        <button class="buttonshodan">Shodan</button>
+        </a>
+</div>
+	<table style="background-color: #FFF; text-align: center; color: #000000; font-size: 72px;">&nbsp;
+<table width="100%" border="2">
+  <caption>
+    All Techniques Required for Black Belt
+  </caption>
+  <tbody>
+    <tr>
+      <th scope="col">Ukemi</th>
+      <th scope="col">Taisabaki</th>
+      <th style="font-size: medium; max-height: 24px;" scope="col">Katas</th>
+      <th scope="col">Nage Waza</th>
+      <th scope="col">Jiyu Waza</th>
+    </tr>
+    <tr>
+      <td>Ushiro</td>
+      <td>Stepping</td>
+      <td>Goshin Ho I</td>
+      <td>Seoi Nage</td>
+      <td>Strikes</td>
+    </tr>
+    <tr>
+      <td>Migi</td>
+      <td>Hand Sets</td>
+      <td>Kihon Kata I</td>
+      <td>Osoto Gari</td>
+      <td>Wrist Grabs</td>
+    </tr>
+    <tr>
+      <td>Hidari</td>
+      <td>Kicking Sets</td>
+      <td>Goshin Ho II</td>
+      <td>Ukigoshi</td>
+      <td>Bear Hugs</td>
+    </tr>
+    <tr>
+      <td>Mae Mawari</td>
+      <td>Twisting</td>
+      <td>Kihon Kata II</td>
+      <td>Sasaetsurikomi Ashi</td>
+      <td>Multiple Attackers</td>
+    </tr>
+    <tr>
+      <td>Tobu Ukemi (Flying Fall)</td>
+      <td>Striking</td>
+      <td>&nbsp;</td>
+      <td>Hiza Guruma</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Advanced Stepping</td>
+      <td>&nbsp;</td>
+      <td>Ouchi Gari</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Advanced Striking</td>
+      <td>&nbsp;</td>
+      <td>Kouchi Gari</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>Advanced Blocking</td>
+      <td>&nbsp;</td>
+      <td>Taiotoshi</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>Tomoe Nage</td>
+      <td>&nbsp;</td>
+    </tr>
+
+  </tbody>
+</table>
+	
+<p style="background-color: #F80004; text-align: center; color: #000000; font-size: 72px;">&nbsp;Please choose a rank to view the required material, or select the next color belt you are testing for in the dropdown below.&nbsp;</p>
+    <form id="redirectForm">
+        <label for="selection">Choose the next belt color you are testing for:</label>
+        <select id="selection" name="selection">
+            <option value="7thKyu.html">White Belt, Green Stripe</option>
+            <option value="6thKyu.html">Green Belt, White Stripe</option>
+            <option value="5thKyu.html">Green Belt</option>
+            <option value="4thKyu.html">Green Belt, Brown Stripe</option>
+            <option value="3rdKyu.html">Brown Belt, Green Stripe</option>
+            <option value="2ndKyu.html">Brown Belt</option>
+            <option value="1stKyu.html">Brown Belt, Black Stripe</option>
+            <option value="Shodan.html">Black Belt</option>
+        </select>
+		<button type="button" onclick="redirect()">View Rank Requirements</button>
+    </form>
+	    
+<script>
+        function redirect() {
+            // Get the selected value
+            const selectedPage = document.getElementById('selection').value;
+            // Redirect to the selected page
+            window.location.href = selectedPage;
+        }
+</script>
+	<a href="#" class="Backtotop" width="100%">Back to Top</a>
+</html>
